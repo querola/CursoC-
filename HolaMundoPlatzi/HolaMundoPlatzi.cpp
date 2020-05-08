@@ -10,7 +10,7 @@ int main()
     cout << Direccion << endl;
     //crear un apuntador
     int* ApuntadorDir;
-
+    
     ApuntadorDir = &Direccion;
     //se asigna 3 a la direccion de memoria que marca el apuntador
     *ApuntadorDir = 3;
